@@ -1,0 +1,20 @@
+---
+   import Navbar from '../components/Navbar.astro';
+   import MainLayout from '../layouts/MainLayout.astro';
+   import CustomTitle from '../components/CustomTitle.astro';
+---
+
+<MainLayout title='About' name='About Page'>
+
+   <h1>About</h1>
+
+   <CustomTitle title='Custom Title' />
+
+
+   <style is:inline>
+      h1 {
+         color: red;
+      }
+   </style>
+
+</MainLayout>
